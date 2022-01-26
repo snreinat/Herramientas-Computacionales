@@ -34,6 +34,6 @@ int main(int argc, char *argv[])
 		printf("%c\t", rec_buf[i]);      
 		}                    
 	printf("\n");       
-	MP	I_Finalize();   
-	r	eturn 0;      
+	MPI_Finalize();   
+	return 0;      
 	}
